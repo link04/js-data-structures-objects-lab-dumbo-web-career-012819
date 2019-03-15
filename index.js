@@ -17,6 +17,12 @@ const destructivelyDeleteFromDriverByKey = (driver, key) =>{
 
 
 
+const destructivelyDeleteFromDriverByKey = (driver, key) =>{
+  delete driver[key];
+}
+
+
+
 
 
 
