@@ -11,7 +11,7 @@ const destructivelyUpdateDriverWithKeyAndValue = (driver, key, value) =>{
   return driver;
 }
 
-const deleteFromDriverByKey = (driver, key) =>{
+const destructivelyDeleteFromDriverByKey = (driver, key) =>{
   delete driver[key];
 }
 
